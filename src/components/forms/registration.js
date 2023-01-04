@@ -30,8 +30,10 @@ const Registration = () => {
 			setUserRegistration({fullname:"", email:"", mobile:"", password:""})
 	}
 
+	
 	return(
 		<>
+			<div className="form">
 			<form action="" onSubmit={handleSubmit}>
 				<div>
 					<label htmlFor="fullname">Full Name</label>
@@ -49,7 +51,7 @@ const Registration = () => {
 					<label htmlFor="password">Password</label>
 					<input type="password" name="password" id="password" value={userRegistration.password} onChange={handleInput} />
 				</div>
-				<button type="submit">Registration</button>
+				<button type="submit" className="rButton">Registration</button>
 			</form>
 
 			<div>
@@ -66,6 +68,7 @@ const Registration = () => {
 					}
 					)
 				}
+			</div>
 			</div>
 		</>
 	)

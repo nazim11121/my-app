@@ -1,0 +1,22 @@
+.form{
+		background-color : purple;
+		color : white;
+		text-align : center;
+		padding : 80px;
+		margin-left : 490px;
+		margin-right : 450px;
+		margin-top : 60px;
+	}
+.rButton{
+	margin-top: 20px;
+	width: 100px;
+	height: 32px;
+	border-radius: 10px;
+
+}	
+
+.rButton:hover{
+
+	background-color: purple;
+	color: white;
+}
