@@ -1,3 +1,8 @@
+
+
+
+
+
 .form{
 		background-color : purple;
 		color : white;
@@ -9,9 +14,9 @@
 	}
 .rButton{
 	margin-top: 20px;
-	width: 100px;
+	/*width: 100px;
 	height: 32px;
-	border-radius: 10px;
+	border-radius: 10px;*/
 
 }	
 
@@ -20,3 +25,4 @@
 	background-color: purple;
 	color: white;
 }
+

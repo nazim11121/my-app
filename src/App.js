@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Registration from './components/forms/registration';
+import Template_index from './components/common/template_index';
 
 function App() {
   return (
 
-    <div><Registration /></div>
+    <div><Template_index /></div>
+    // <div><Registration /></div>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
